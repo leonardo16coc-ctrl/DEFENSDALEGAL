@@ -1,0 +1,19 @@
+/* Identidad visual Master: oscuro, oro, logo y encabezado */
+:root{--navy:#0d1827;--navy2:#101d2a;--gold:#bb975c;--gold2:#e1c28e;--green:#17a65f}
+.site-header{background:#0b0c0d;box-shadow:0 3px 20px #00000055;border-bottom:1px solid #b7996436;backdrop-filter:blur(14px)}
+.site-header .head-inner{height:92px;gap:20px}
+.site-header .brand{display:flex;align-items:center;gap:13px;flex:0 1 405px;color:#fff;min-width:0}
+.site-header .brand img{width:67px;height:71px;max-width:none;object-fit:contain;mix-blend-mode:normal;flex:0 0 67px;border-radius:50%;border:1px solid #dbcfb83b;box-shadow:0 0 20px #f4ddac10}
+.brand-copy{display:flex;flex-direction:column;gap:5px;min-width:0}
+.brand-copy strong{font:500 clamp(1.18rem,1.75vw,1.51rem) 'Playfair Display', Georgia,serif;letter-spacing:-.02em;white-space:nowrap}
+.brand-copy small{font-size:.54rem;letter-spacing:.21em;color:#adabb0;white-space:nowrap;font-weight:600}
+.site-header .nav a{color:#e4e4e4}.site-header .nav a:hover,.site-header .nav a.active{color:#e5c489}
+.site-header .head-cta{color:#e9d09d;border:1px solid #b997647d;background:#aa85551c}.site-header .head-cta:hover{background:#bb975c33}
+.site-header .menu-toggle{background:#191b1f;border:1px solid #ad986750;color:#e6d2ac}
+.site-header .menu-toggle[aria-expanded=true]{background:#2a2724}
+.hero:before{background:linear-gradient(94deg,#07090de9 0%,#10151de0 42%,#122032be 100%),url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1800&q=85') center 39%/cover}
+.footer-identity{display:flex;align-items:center;gap:12px;margin-bottom:18px}.footer-identity img{width:61px;height:65px;object-fit:contain;border-radius:50%}
+.footer-identity .footer-logo{font-size:1.37rem;line-height:1.25}.footer-identity .footer-logo span{letter-spacing:.14em;font-size:.51rem;line-height:1.5}
+@media(max-width:1100px){.site-header .head-inner{gap:14px}.site-header .brand{flex-basis:318px}.site-header .nav{gap:14px}.site-header .nav a{font-size:.79rem}.brand-copy strong{font-size:1.17rem}.brand-copy small{font-size:.47rem;letter-spacing:.12em}}
+@media(max-width:880px){.site-header .head-inner{height:80px}.site-header .brand{flex:1;max-width:none}.site-header .nav{background:#101318;border-bottom:1px solid #9d7e4a66}.site-header .nav a{color:#f1ede7;border-color:#ffffff19;font-size:1rem}.site-header .brand img{height:60px;width:57px;flex-basis:57px}.brand-copy strong{font-size:1.25rem}.brand-copy small{font-size:.48rem}}
+@media(max-width:640px){.site-header .head-inner{height:77px;gap:6px}.site-header .brand{max-width:calc(100% - 56px);gap:9px}.site-header .brand img{width:53px;height:56px;flex-basis:53px}.brand-copy strong{font-size:clamp(1.01rem,4.6vw,1.29rem)}.brand-copy small{font-size:clamp(.37rem,1.55vw,.47rem);letter-spacing:.05em}.site-header .menu-toggle{height:45px;width:45px;flex:0 0 45px}.hero h1{font-size:clamp(2.55rem,9vw,4.4rem)}}
